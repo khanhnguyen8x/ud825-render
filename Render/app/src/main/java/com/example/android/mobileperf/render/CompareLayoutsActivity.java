@@ -1,16 +1,11 @@
 package com.example.android.mobileperf.render;
 
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageView;
 
-import com.squareup.picasso.Picasso;
 
-
-public class CompareLayoutsActivity extends ActionBarActivity {
+public class CompareLayoutsActivity extends AppCompatActivity {
     protected static final String TAG = "CompareLayoutActivity";
 
     ImageView chat_author_avatar1;
